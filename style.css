@@ -36,7 +36,7 @@
 .heading{
     font-size: 18px;
     margin-bottom: 2.5%;
-    font-family: IBMPlexSans,sans-serif;
+    font-family: IBM Plex Sans,sans-serif;
     font-weight: 100;
     color: #1a1a1b;
 }
@@ -80,15 +80,15 @@
 }
 
 .google{
-    font-family: IBMPlexSans,sans-serif;
+    font-family: IBM Plex Sans,sans-serif;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 800;
 }
 
 .apple{
-    font-family: IBMPlexSans,sans-serif;
+    font-family: IBM Plex Sans,sans-serif;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 800;
     
 }
 
@@ -101,7 +101,7 @@
     margin: 3% 0;
     cursor: pointer;
     width: 17rem;
-    font-family: IBMPlexSans,sans-serif;
+    font-family: IBM Plex Sans,sans-serif;
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -172,4 +172,10 @@ a{
     font-size: 12px;
     font-family: Noto Sans,sans-serif;
     line-height: 18px;
+}
+
+@media (max-width: 150px){
+    .container:first-child > img{
+        display: none;
+    }
 }
